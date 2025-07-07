@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug DevOps Servlet",
+            "request": "launch",
+            "mainClass": "com.example.DevOpsServlet",
+            "projectName": "simple-tomcat-app",
+            "args": "",
+            "console": "internalConsole"
+        },
+        {
+            "name": "Attach to Tomcat",
+            "type": "java",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8000
+        }
+    ]
+}

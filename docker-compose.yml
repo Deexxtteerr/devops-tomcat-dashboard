@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  devops-dashboard:
+    build: .
+    container_name: devops-tomcat-app
+    ports:
+      - "9090:8080"
+    restart: unless-stopped
+    environment:
+      - JAVA_OPTS=-Xmx512m -Xms256m
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/devops-dashboard"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - devops-network
+
+networks:
+  devops-network:
+    driver: bridge
