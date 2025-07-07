@@ -27,7 +27,8 @@ public class DevOpsServlet extends HttpServlet {
             "Observability > Monitoring - understand why, not just what",
             "Serverless doesn't mean 'operations-less'",
             "Kubernetes: Because sometimes you need to orchestrate your orchestrator",
-            "MTTR (Mean Time To Repair) is more important than MTBF (Mean Time Between Failures)"};
+            "MTTR (Mean Time To Repair) is more important than MTBF (Mean Time Between Failures)",
+            "🎉 WEBHOOK AUTOMATION TEST: This tip was added to test automatic deployment!"};
 
     private final String[] devOpsEmojis =
             {"🚀", "🔧", "⚡", "🔁", "📊", "🔍", "🛠️", "💡", "🤖", "🔒"};
