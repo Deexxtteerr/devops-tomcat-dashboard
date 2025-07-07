@@ -319,6 +319,20 @@ docker stats devops-app
 - 🌟 Expert in AWS, Docker, Jenkins, and Terraform
 - 📧 Contact: nileshpatil3806@gmail.com
 
+## 🌟 Acknowledgments
+
+### 👨‍🏫 **MENTOR: SACHIN GAIKWAD**
+*"The DevOps wizard who transforms careers and code alike - turning complex cloud challenges into stepping stones for success!"* 🚀
+
+**Sachin Gaikwad** is a passionate DevOps mentor who empowers aspiring engineers to master the art of automation and cloud technologies. His unique approach of hands-on learning and real-world project guidance has helped countless professionals transition into successful DevOps careers.
+
+**🎯 Mentorship Philosophy:**
+- **"Learn by Building"** - Real projects, real solutions
+- **"Cloud-First Mindset"** - Modern DevOps practices from day one  
+- **"Automation Everything"** - From code to deployment, make it seamless
+
+*This entire cloud DevOps pipeline exists because of his expert guidance and unwavering support in the journey from beginner to cloud automation expert.*
+
 ### 🏗️ Project Architecture Highlights
 - **Multi-Server Cloud Deployment** on AWS EC2
 - **Infrastructure as Code** with Terraform
