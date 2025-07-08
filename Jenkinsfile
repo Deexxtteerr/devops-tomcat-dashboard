@@ -1,6 +1,10 @@
 pipeline {
     agent any
     
+    tools {
+        maven 'Maven-3.8.7'  // This tells Jenkins to use the Maven installation we configured
+    }
+    
     environment {
         PROJECT_NAME = 'devops-tomcat-app'
         CONTAINER_NAME = 'devops-app'
